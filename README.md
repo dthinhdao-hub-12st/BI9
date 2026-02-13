@@ -1,3 +1,4 @@
+[VIETNAMESE VERSION (ENGLISH VERSION BELOW)]
 # **Business Intelligence 9 - Round 01: Chessboard ♟️**
 Dự án này được thực hiện trong khuôn khổ Vòng 1 cuộc thi Business Intelligence Season 9. Mục tiêu trọng tâm là thực hiện quy trình BI toàn diện cho bài toán kinh doanh của Highlands Coffee, từ xử lý dữ liệu thô đến xây dựng mô hình dự báo và đưa ra các đề xuất chiến lược.
 
@@ -36,3 +37,43 @@ Dự án giải quyết 6 câu hỏi lớn (Questions) được đặt ra trong 
 - Tùy vào câu hỏi sẽ có các deliverables tương ứng được tạo, ví dụ như notebook, dashboards, ...
 - Nếu cần file dữ liệu gốc hoặc đã xử lý, vui lòng liên hệ chủ sở hữu
 
+
+[ENGLISH VERSION]
+# **Business Intelligence 9 - Round 01: Chessboard ♟️**
+
+This project was developed as part of Round 01 of the Business Intelligence Season 9 competition. The primary focus is to implement a comprehensive BI workflow for Highlands Coffee's business challenges, ranging from raw data processing to building predictive models and providing strategic recommendations.
+
+## **Project Overview**
+The project addresses six major questions set out in the competition to optimize business operations and customer experience management:
+- Data Quality Assessment: Evaluating and resolving data quality issues such as redundancy, inconsistency, and logical violations.
+- Data Modeling: Designing a standardized Entity-Relationship Diagram (ERD) to reflect a cleaned data structure. 
+- Data Access Control: Establishing a Role-Based Access Control (RBAC) matrix for various departments (BOD, HR, Finance, Marketing, Sales). 
+- Competitive Analysis: Analyzing the competitive landscape of Highlands Coffee through brand funnels and brand positioning maps.
+- Churn Analysis & Dashboard: Visualizing customer churn rates across multiple dimensions (NPS, segmentation, demographics). 
+- Segmentation & Prediction: Segmenting customers using Clustering and building Machine Learning models to predict churn risk. 
+
+## **Methodology**
+### 1. Data Engineering
+- Data Cleaning: Removing redundant columns, standardizing labels, and handling missing values.
+- Modeling: Developing an ERD/Class Diagram to define Primary Keys, Foreign Keys, and relationships (1-1, 1-n). 
+
+### 2. Governance & Analytics
+- Access Control (RBAC): Constructing an access matrix ensuring the principle of least privilege for each corporate role. 
+- Competitive Analysis: Tracking the customer journey from awareness to loyalty and diagnosing brand perception gaps. 
+
+### 3. Machine Learning & Dashboard
+- Churn Definition: A customer is defined as churned if they were active in the past 3 months (P3M) but had no visit in the past 1 month (P1M). 
+- Interactive Dashboard: Providing deep drill-down capabilities by behavior, need states, and context (weekday/daypart). 
+- Predictive Modeling: Using Classification to identify key churn drivers and proposing risk mitigation solutions. 
+
+## **Deliverables**
+- Dataset: Cleaned dataset and engineered features. 
+- Diagrams: Entity-Relationship Diagram and Data Access Matrix. 
+- Dashboards: Competitive landscape analysis and Churn analysis reporting systems. 
+- Models: Customer segmentation models and churn prediction models. 
+
+## **Instructions**
+- Answers to the questions are documented in the **FinalReport** PDF file. 
+- Detailed questions and requirements are stored in the **BI9_Round1** PDF file. 
+- Corresponding deliverables such as notebooks and dashboards are created based on each specific question.
+- If you require original or processed data files, please contact the owner.
