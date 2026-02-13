@@ -34,4 +34,5 @@ Dự án giải quyết 6 câu hỏi lớn (Questions) được đặt ra trong 
 - Kết quả trả lời các câu hỏi được lưu trong file pdf FinalReport
 - Chi tiết về các câu hỏi và yêu cầu được lưu trong file pdf BI9_Round1
 - Tùy vào câu hỏi sẽ có các deliverables tương ứng được tạo, ví dụ như notebook, dashboards, ...
+- Nếu cần file dữ liệu gốc hoặc đã xử lý, vui lòng liên hệ chủ sở hữu
 
