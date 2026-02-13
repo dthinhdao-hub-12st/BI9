@@ -1,0 +1,17 @@
+# Loại bỏ các thư mục môi trường ảo Python
+venv/
+.env
+__pycache__/
+
+# Loại bỏ các file dữ liệu nặng (thường > 25MB)
+*.csv
+*.xlsx
+*.parquet
+data/
+
+# Loại bỏ các file tạm của hệ thống
+.DS_Store
+Thumbs.db
+
+# Loại bỏ các file log
+*.log
